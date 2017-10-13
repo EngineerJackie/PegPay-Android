@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_pegpay"
+            android:icon="@drawable/ic_nav_home"
+            android:title="My PegPay" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_nav_activity"
+            android:title="Recent Activity" />
+        <item
+            android:id="@+id/nav_pay_bill"
+            android:icon="@drawable/ic_nav_wallet"
+            android:title="Pay Bill" />
+        <item
+            android:id="@+id/nav_topup"
+            android:icon="@drawable/ic_nav_topup"
+            android:title="Topup PegPay" />
+        <item
+            android:id="@+id/nav_artime"
+            android:icon="@drawable/ic_nav_buy_airtime"
+            android:title="Buy Airtime" />
+        <item
+            android:id="@+id/nav_send_money"
+            android:icon="@drawable/ic_nav_send_money"
+            android:title="Send Money" />
+        <item
+            android:id="@+id/nav_pay_merchant"
+            android:icon="@drawable/ic_nav_pay_merchant"
+            android:title="Pay Merchant" />
+    </group>
+
+    <group android:id="@+id/group_misc" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

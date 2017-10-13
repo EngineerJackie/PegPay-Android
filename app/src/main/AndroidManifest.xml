@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.pegasus.pegpay"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-sdk tools:overrideLibrary="com.gc.materialdesign" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LandingActivity" android:theme="@style/AppTheme.TransparentStausBar" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity android:name=".SplashScreen" android:theme="@style/AppTheme.TransparentStausBar" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingupLoginActivity" android:label="@string/app_name" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity android:name=".DashboardActivity">
+
+        </activity>
+        <activity android:name=".RecentTransactions" android:label="Recent Transactions">
+
+        </activity>
+        <activity android:name=".PayBillActivity" android:label="Pay Bill">
+
+        </activity>
+        <activity android:name=".UtilitiesBillPaymentActivity" android:label="Utilities">
+
+        </activity>
+        <activity android:name=".PayTVBillPaymentActivity" android:label="Pay TV">
+
+        </activity>
+        <activity android:name=".TaxBillPaymentActivity" android:label="Tax">
+
+        </activity>
+        <activity android:name=".SchoolPaymentActivity" android:label="School Fees">
+
+        </activity>
+        <activity android:name=".OtherPaymentsActivity" android:label="Others">
+
+        </activity>
+        <activity android:name=".UmemePaymentActivity" android:label="Umeme">
+
+        </activity>
+        <activity android:name=".NWSCPaymentActivity" android:label="NWSC">
+
+        </activity>
+        <activity android:name=".SelectPaymentMethodActivity" android:label="Payment Method">
+
+        </activity>
+        <activity android:name=".PaymentReceiptActivity" android:label="Receipt">
+
+        </activity>
+        <activity android:name=".UEDCLPaymentActivity" android:label="UEDCL">
+
+        </activity>
+        <activity android:name=".TVPackageSelectionActivity" android:label="Packages">
+
+        </activity>
+        <activity android:name=".TVPackagePaymentActivity" android:label="Packages">
+
+        </activity>
+        <activity android:name=".URAPayment" android:label="URA" />
+        <activity android:name=".NSSFPaymentActivity" android:label="NSSF" />
+        <activity android:name=".ReceivePaymentActivity" android:label="Receive Payment" />
+        <activity android:name=".KCCAPayment" android:label="KCCA" />
+        <activity android:name=".UniversityListActivity" android:label="Universities" />
+        <activity android:name=".UniversityPaymentActivity" android:label="University Payment" />
+        <activity android:name=".SendMoneyActivity" android:label="Send Money" />
+        <activity android:name=".MessageDetailActivity" android:label="Message" />
+        <activity android:name=".BuyAirtimeActivity" android:label="Buy Airtime">
+
+        </activity>
+        <activity android:name=".InboxActivity">
+
+        </activity>
+    </application>
+
+</manifest>
